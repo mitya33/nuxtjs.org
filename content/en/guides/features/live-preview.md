@@ -9,7 +9,7 @@ With Nuxt.js and full static you can now use live preview out of the box which w
 
 <base-alert> Only available when using [target:static](/docs/2.x/features/deployment-targets#static-hosting) </base-alert>
 
-The preview mode will automatically refresh the page data as it uses `$nuxt.refresh` under the hood and therefore calls nuxtServerInit, asyncData and fetch on the client side.
+The preview mode will automatically refresh the page data as it uses `$nuxt.refresh` under the hood and therefore calls `nuxtServerInit`, `asyncData` and `fetch` on the client side.
 
 In order to activate live preview you will need to add the following plugin:
 
