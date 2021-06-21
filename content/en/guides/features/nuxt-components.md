@@ -346,13 +346,13 @@ export default {
 
 <base-alert type="info">
 
-This option is given directly to the `vue-router` linkExactActiveClass. See the [vue-router](https://router.vuejs.org/api/#active-class) [docs](https://router.vuejs.org/api/#exact-active-class) for more info
+This option is given directly to the `vue-router` `linkExactActiveClass`. See the [vue-router](https://router.vuejs.org/api/#active-class) [docs](https://router.vuejs.org/api/#exact-active-class) for more info
 
 </base-alert>
 
 #### linkPrefetchedClass
 
-The linkPrefetchedClass will allow you to add styles for all links that have been prefetched. This is great for testing which links are being prefetched after modifying the default behavior. The linkPrefetchedClass is disabled by default. If you want to enable it you need to add it to the router property in your `nuxt-config.js` file.
+The `linkPrefetchedClass` will allow you to add styles for all links that have been prefetched. This is great for testing which links are being prefetched after modifying the default behavior. The `linkPrefetchedClass` is disabled by default. If you want to enable it you need to add it to the router property in your `nuxt-config.js` file.
 
 ```js{}[nuxt.config.js]
 export default {
